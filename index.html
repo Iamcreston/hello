@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Amala, you are invited to marry Creston</title>
+<style>
+:root{--ink:#4a2108;--orange:#f2740f;--amber:#f9a825;--sun:#ffd54a;--cream:#fff6dc;--deep:#c2410c}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:Georgia,"Times New Roman",serif;color:var(--ink);line-height:1.6;
+background:radial-gradient(130% 70% at 50% 0,var(--sun) 0,var(--amber) 40%,var(--orange) 100%) fixed;
+padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+.wrap{max-width:540px;margin:0 auto;padding:22px 14px 56px}
+.card{background:var(--cream);border-radius:30px 30px 110px 110px/30px 30px 44px 44px;padding:20px 24px 44px;text-align:center;
+box-shadow:0 0 0 7px rgba(255,246,220,.5),0 26px 56px rgba(120,40,0,.38);overflow:hidden}
+.bouquet{display:block;width:100%;height:auto;margin:0 auto}
+.fine{font-size:13px;font-style:italic;opacity:.85;margin:0}
+h1{font-size:clamp(42px,13vw,64px);line-height:.98;margin:8px 0 0;font-weight:700;letter-spacing:-.02em;color:var(--deep)}
+h1 em{display:block;font-weight:400;font-size:.46em;color:var(--orange);margin:6px 0}
+.ask{font-size:19px;font-style:italic;margin:16px auto 0;max-width:28ch}
+.rule{height:10px;margin:28px auto;width:150px;background:radial-gradient(circle,var(--orange) 3px,transparent 4px) 0 0/20px 10px repeat-x}
+.date{background:var(--deep);color:var(--cream);border-radius:22px;padding:18px 12px;transform:rotate(-1.5deg);box-shadow:0 6px 0 #7c2d12}
+.date .big{font-size:clamp(30px,9vw,42px);font-weight:700;line-height:1.1}
+.date .sm{font-size:15px;font-style:italic;margin-top:4px;opacity:.95}
+.cd{display:flex;justify-content:center;gap:10px;margin:20px 0 4px}
+.cd div{background:var(--sun);border-radius:16px;padding:8px 0;width:72px;box-shadow:0 4px 0 #b7791f}
+.cd b{display:block;font-size:26px;line-height:1.1;color:#3b1a05}
+.cd span{font-size:12px}
+.row{margin:20px 0}
+.row b{display:block;font-size:19px;color:var(--deep)}
+.row span{display:block}
+.tl{list-style:none;padding:0;margin:14px auto 0;max-width:340px;text-align:left;border-left:3px solid var(--orange)}
+.tl li{padding:2px 0 12px 16px;position:relative}
+.tl li::before{content:"";position:absolute;left:-9px;top:8px;width:15px;height:15px;border-radius:50%;background:var(--amber);border:3px solid var(--cream);box-shadow:0 0 0 2px var(--orange)}
+.tl b{color:var(--deep)}
+h2{font-size:24px;margin:0 0 4px;color:var(--deep)}
+.btns{display:flex;flex-direction:column;gap:14px;align-items:center;margin-top:14px;min-height:190px}
+button{font:inherit;font-weight:700;font-size:17px;border:0;border-radius:999px;padding:14px 22px;cursor:pointer;width:100%;max-width:340px;touch-action:manipulation}
+.yes{background:var(--deep);color:var(--cream);box-shadow:0 5px 0 #7c2d12}
+.fr{background:var(--sun);color:#3b1a05;box-shadow:0 5px 0 #b7791f}
+.yes:active,.fr:active{transform:translateY(3px);box-shadow:none}
+.no{background:#fff;color:var(--ink);border:2px dashed var(--orange);transition:transform .25s ease}
+button:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+#msg{display:none;padding:12px 4px}
+.cal{display:inline-block;margin-top:12px;background:var(--sun);color:#3b1a05;font-weight:700;text-decoration:none;padding:12px 20px;border-radius:999px;box-shadow:0 4px 0 #b7791f}
+.real{background:var(--sun);border-radius:18px;padding:14px;margin-top:14px;color:#3b1a05}
+.petal{position:fixed;top:-30px;font-size:22px;pointer-events:none;animation:fall linear forwards;z-index:9}
+@keyframes fall{to{transform:translateY(112vh) rotate(540deg)}}
+.card{animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(18px) scale(.97)}}
+@media (prefers-reduced-motion:reduce){.card,.petal{animation:none}.petal{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap"><div class="card">
+
+<svg class="bouquet" viewBox="0 0 400 200" role="img" aria-label="A bouquet of orange and yellow hydrangeas">
+<defs><symbol id="fl" viewBox="-10 -10 20 20"><ellipse cx="0" cy="-4.6" rx="3.6" ry="5"/><ellipse cx="0" cy="4.6" rx="3.6" ry="5"/><ellipse cx="-4.6" cy="0" rx="5" ry="3.6"/><ellipse cx="4.6" cy="0" rx="5" ry="3.6"/><circle r="1.4" fill="#fff6dc" opacity=".85"/></symbol></defs>
+<g id="leaves" fill="#5a7d2a"></g><g id="blooms"></g>
+</svg>
+
+<p class="fine">A very official invitation, for Amala's eyes only</p>
+<h1>Amala,<em>will you marry</em>Creston?</h1>
+<p class="ask">Please respond with a straight face. This is a joke. Mostly.</p>
+<div class="rule"></div>
+
+<div class="date">
+<div class="big">Saturday, May 22, 2027</div>
+<div class="sm">4:20 PM sharp. Chosen at random. Fate, probably.</div>
+</div>
+<div class="cd" id="cd" aria-label="Countdown to the wedding">
+<div><b id="d">0</b><span>days</span></div><div><b id="h">0</b><span>hours</span></div><div><b id="m">0</b><span>min</span></div><div><b id="s">0</b><span>sec</span></div>
+</div>
+<p class="fine">Until the biggest commitment of my life: you reading this</p>
+<div class="rule"></div>
+
+<div class="row"><b>Where</b><span>Atlanta, somewhere with excellent Thai food</span><span class="fine">Exact location revealed 48 hours before. Parking will be a nightmare.</span></div>
+<div class="row"><b>Dress code</b><span>Aso ebi in orange and yellow. Hydrangeas. Beige is a dealbreaker.</span></div>
+<div class="row"><b>Registry</b><span>One (1) Thai dinner, your pick of restaurant</span></div>
+
+<h2>The big day, hour by hour</h2>
+<ul class="tl">
+<li><b>4:20</b> The ceremony. Brief, because the food is getting cold.</li>
+<li><b>4:35</b> Pad thai.</li>
+<li><b>5:00</b> Speeches. I will be reviewing my own.</li>
+<li><b>6:00</b> Dancing, Afrobeats included. I will be bad at it.</li>
+<li><b>6:30</b> Jollof rice, so the Thai food doesn't get all the glory.</li>
+<li><b>7:00</b> Mango sticky rice. Non-negotiable.</li>
+</ul>
+<div class="rule"></div>
+
+<h2>Kindly RSVP, Amala</h2>
+<div class="btns" id="b">
+<button class="yes" id="y">Yes, obviously</button>
+<button class="fr" id="f">Let's start with Thai food</button>
+<button class="no" id="n">No</button>
+</div>
+<div id="msg" aria-live="polite"></div>
+<p class="fine" style="margin-top:28px">Not legally binding. Void where prohibited.<br>No hydrangeas were harmed in the making of this invitation.</p>
+</div></div>
+
+<script>
+(function(){
+var NS="http://www.w3.org/2000/svg",bl=document.getElementById("blooms"),lv=document.getElementById("leaves");
+var cols=["#f2740f","#f9a825","#ffd54a","#e8590c","#fbbf24","#ff8f1f"];
+function el(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e}
+[[110,150,-40],[290,150,40],[200,160,0],[60,125,-72],[340,125,72]].forEach(function(l){
+var g=el("g",{transform:"translate("+l[0]+" "+l[1]+") rotate("+l[2]+")"});
+g.appendChild(el("ellipse",{cx:0,cy:-30,rx:20,ry:48}));lv.appendChild(g)});
+function ball(cx,cy,r,n,seed){
+var g=el("g",{});
+for(var i=0;i<n;i++){
+var d=r*Math.sqrt((i+.5)/n),a=i*2.39996+seed;
+var u=el("use",{href:"#fl",x:cx+d*Math.cos(a)-9,y:cy+d*Math.sin(a)*.92-9,width:18,height:18});
+u.style.fill=cols[(i*5+seed)%cols.length];
+g.appendChild(u)}
+bl.appendChild(g)}
+ball(100,108,60,44,1);ball(300,108,60,44,2);ball(200,82,78,70,3);
+
+var target=new Date(2027,4,22,16,20,0);
+function tick(){
+var t=Math.max(0,target-new Date()),s=Math.floor(t/1000);
+document.getElementById("d").textContent=Math.floor(s/86400);
+document.getElementById("h").textContent=Math.floor(s%86400/3600);
+document.getElementById("m").textContent=Math.floor(s%3600/60);
+document.getElementById("s").textContent=s%60}
+tick();setInterval(tick,1000);
+
+var m=document.getElementById("msg"),b=document.getElementById("b");
+function rain(){
+if(matchMedia("(prefers-reduced-motion:reduce)").matches)return;
+var e=["🌼","🧡","🌻","💛","🌸"];
+for(var i=0;i<30;i++){(function(i){setTimeout(function(){
+var p=document.createElement("div");p.className="petal";p.textContent=e[i%e.length];
+p.style.left=Math.random()*100+"vw";p.style.animationDuration=(2.5+Math.random()*2.5)+"s";
+document.body.appendChild(p);setTimeout(function(){p.remove()},5200)},i*90)})(i)}}
+function chime(){try{var A=new (window.AudioContext||window.webkitAudioContext)(),t=A.currentTime;
+[523.25,659.25,783.99,1046.5].forEach(function(f,i){var o=A.createOscillator(),g=A.createGain();o.type="sine";o.frequency.value=f;
+g.gain.setValueAtTime(0,t+i*.18);g.gain.linearRampToValueAtTime(.12,t+i*.18+.03);g.gain.exponentialRampToValueAtTime(.001,t+i*.18+.9);
+o.connect(g);g.connect(A.destination);o.start(t+i*.18);o.stop(t+i*.18+1)})}catch(e){}}
+function ics(){var x=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//invite//EN","BEGIN:VEVENT","UID:invite-20270522@local","DTSTAMP:20261023T000000Z","DTSTART:20270522T162000","DTEND:20270522T210000","SUMMARY:Creston & Amala's wedding (a joke, mostly)","DESCRIPTION:Thai food. Jollof. Hydrangeas.","END:VEVENT","END:VCALENDAR"].join("\r\n");
+return "data:text/calendar;charset=utf-8,"+encodeURIComponent(x)}
+function done(h,p,real){b.style.display="none";m.style.display="block";
+m.innerHTML="<h2>"+h+"</h2><p>"+p+"</p>"+(real?'<div class="real"><b>Okay, for real:</b> Thai dinner this month, my treat? Screenshot this and send me your answer.</div><a class="cal" download="creston-and-amala-wedding.ics" href="'+ics()+'">Add the big day to my calendar</a>':"");
+if(real)chime();rain()}
+document.getElementById("y").onclick=function(){done("She said yes!","(To the invitation. The rest is pending.)",true)};
+document.getElementById("f").onclick=function(){done("Excellent choice.","Step one of any great engagement is Thai food. Spice level is your call.",true)};
+var n=document.getElementById("n"),c=0,lines=["No","Are you sure?","Really?","I'm getting emotional","Okay, that's rude","Fine, you caught me"];
+function fin(){done("Rejected, but gracefully.","The hydrangeas will recover. You still owe me Thai food.")}
+function dodge(e){
+if(c>=5){fin();return}
+if(e&&e.preventDefault)e.preventDefault();
+c++;n.textContent=lines[c];
+if(c>=5){n.style.transform="none";return}
+n.style.transform="translate("+((Math.random()-.5)*140)+"px,"+((Math.random()-.5)*80)+"px) rotate("+((Math.random()-.5)*14)+"deg)"}
+n.addEventListener("mouseenter",function(e){if(c<5)dodge(e)});
+n.addEventListener("touchstart",function(e){dodge(e)},{passive:false});
+n.addEventListener("click",function(e){dodge(e)});
+})();
+</script>
+</body>
+</html>
